@@ -1,0 +1,21 @@
+.navbar{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 10px 50px;
+font-family: monospace;
+}
+.nav-list{
+list-style: none;
+display: flex;
+align-items: center;
+justify-content: space-around;
+gap: 40px;
+}
+.nav-list__item{
+  font-weight: 400;
+  font-size: 21px;
+  opacity: 0.9;
+  color: black;
+  text-decoration: none;
+}
